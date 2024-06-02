@@ -8,3 +8,9 @@ node_modules/
 /playwright/.auth/
 # Jetbrains IDE
 /.idea/
+# Python Virtual Environment
+/pyEnv/
+# Robot output files
+log.html
+output.xml
+report.html
