@@ -16,6 +16,7 @@ const credentialData = yaml.load(credentialContents) as LoginData[];
 // Only take the first entry
 const loginData = credentialData[0];
 
+// Global variable used in beforeAll and subsequently all tests
 let context: BrowserContext;
 
 // Before all tests, login to LinkedIn
